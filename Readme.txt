@@ -8,7 +8,8 @@ Kindly follow below steps to run application
 	create image -> docker build -t eurodigital . 
 	verify image once created -> docker images 
 		eurodigital must be availble 
-	Run image -> docker run -t -p90999:9090 eurodigital
+	Run image -> docker run -t -p9090:9090 eurodigital
 	above step will run application in docker contianer 
 	
-3. Steps2 will 
+3. Steps2 will create image and run the same on 9099 port. Hit below URL to open swagger documents 
+	http://localhost:9090/swagger-ui.html
